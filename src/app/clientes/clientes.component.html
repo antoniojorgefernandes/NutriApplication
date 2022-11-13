@@ -1,0 +1,27 @@
+<div>
+    <div class="row justify-content-end">
+        <div class="col-md-1 p-4 w-20 buttonClass">
+            <button class="btn btn-primary" type="button">Adicionar Cliente</button>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="row" >
+        <div class="col-12" *ngFor="let cliente of clientes">
+            <div class="row">
+                <div class="col-3">
+                    {{cliente.nome}}
+                </div>
+                <div class="col-3">
+                    {{cliente.doencas}}
+                </div>
+                <div class="col-3">
+                    {{cliente.analises}}
+                </div>
+                <div class="col-3">
+                    {{cliente.intolerancias_e_alergias}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

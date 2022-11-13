@@ -1,0 +1,27 @@
+.col-md-2:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.col-md-2 {
+    border: 1px solid;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: cadetblue;
+}
+
+.buttonClass:hover{
+    background-color: white;
+}
+
+.buttonClass {
+    border: 0px;
+}
+
+.justify-content-end {
+    padding-right: 1.5%;
+}
